@@ -56,6 +56,7 @@ struct CalculatorView: View {
                     }
             } else {
                 ProgressView()
+                    .frame(minWidth: 300)
             }
         }
     }
